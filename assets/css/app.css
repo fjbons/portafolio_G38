@@ -1,0 +1,66 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+  }
+
+  .navbar {
+    background-color: black;
+  }
+
+  .section-carousel img {
+    height: 600px;
+  }
+
+  .carousel-caption {
+    top: 30%;
+  }
+
+  .texto-perfil {
+    text-align: center;
+    color: black;
+  }
+
+/* fix carousel caption position on smaller screens */
+  @media only screen and (max-width: 575px) {
+    .texto-perfil {
+        padding-top: 50px;
+    }
+    }
+
+  @media only screen and (max-width: 575px) {
+    .texto-perfil {
+        padding-top: 30px;
+    }
+    }
+
+  .texto-perfil button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .texto-perfil button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .section-formacion {
+    height: auto;
+  }
+
+  .section-proyectos {
+    height: auto;
+  }
+
+  .section-contacto {
+    height: auto;
+  }
