@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/favicon white-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -53,7 +56,7 @@
                             <h5 class="">Hola, soy Francisca Bon</h5>
                             <h1 class="mb-3">Diseñadora UX/UI</h1>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, eos! Modi dolorem culpa esse recusandae cupiditate repellendus obcaecati error delectus. Non omnis distinctio doloremque dolorum perferendis ullam dolorem incidunt illo.</p>
-                            <button>Mi CV</button>
+                            <a type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Descargar" href="assets/css/CV_FranciscaBon.pdf" download="CV_FranciscaBon" target="_blank">Mi CV</a>
                         </div>
                     </div>
                   </div>
@@ -64,7 +67,7 @@
                             <h5 class="">Hola, soy Francisca Bon</h5>
                             <h1 class="mb-3">Diseñadora UX/UI</h1>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, eos! Modi dolorem culpa esse recusandae cupiditate repellendus obcaecati error delectus. Non omnis distinctio doloremque dolorum perferendis ullam dolorem incidunt illo.</p>
-                            <button>Mi CV</button>
+                            <a type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Descargar" href="assets/css/CV_FranciscaBon.pdf" download="CV_FranciscaBon" target="_blank">Mi CV</a>
                         </div>
                     </div>
                   </div>
@@ -75,7 +78,7 @@
                             <h5 class="">Hola, soy Francisca Bon</h5>
                             <h1 class="mb-3">Diseñadora UX/UI</h1>
                             <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, eos! Modi dolorem culpa esse recusandae cupiditate repellendus obcaecati error delectus. Non omnis distinctio doloremque dolorum perferendis ullam dolorem incidunt illo.</p>
-                            <button>Mi CV</button>
+                            <a type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Descargar" href="assets/css/CV_FranciscaBon.pdf" download="CV_FranciscaBon" target="_blank">Mi CV</a>
                         </div>
                     </div>
                   </div>
@@ -142,7 +145,7 @@
                 <div class="card mx-auto">
                   <img src="assets/img/suricata.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <div class="card-title">Suricata</div>
+                    <div class="card-title"><u>Suricata</u></div>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam ipsa
                       accusamus fugiat nemo debitis!.</p>
                   </div>
@@ -152,7 +155,7 @@
                 <div class="card mx-auto">
                   <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <div class="card-title">CUPPON</div>
+                    <div class="card-title"><u>CUPPON</u></div>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam ipsa
                       accusamus fugiat nemo debitis!.</p>
                   </div>
@@ -162,7 +165,7 @@
                 <div class="card mx-auto">
                   <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <div class="card-title">Ricomida</div>
+                    <div class="card-title"><u>Ricomida</u></div>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam ipsa
                       accusamus fugiat nemo debitis!.</p>
                   </div>
@@ -172,7 +175,7 @@
                 <div class="card mx-auto">
                   <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <div class="card-title">Meet&Coffee</div>
+                    <div class="card-title"><u>Meet&Coffee</u></div>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione veniam ipsa
                       accusamus fugiat nemo debitis!.</p>
                   </div>
@@ -184,44 +187,44 @@
           <section class="section-contacto container py-5" id="contacto">
             <h2 class="text-center">CONTACTO</h2>
             <hr class="mb-5">
-            <form>
+            <div class="contacto-logo d-flex">
+              <img class="col-12 col-md-6 mx-auto d-none d-md-block" src="assets/img/favicon white- 512x512.png" alt="">
+            <form class="col-12 col-md-6 py-3">
               <div class="mb-3">
                 <label for="formularioContactoNombre" class="form-label">Nombre</label>
-                <input type="texto" class="form-control" id="formularioContactoNombre" required minlength="10" maxlength="50">
+                <input type="text" class="form-control" id="formularioContactoNombre" required minlength="10" maxlength="50">
               </div>
               <div class="mb-3">
                 <label for="formularioContactoAsunto" class="form-label">Asunto</label>
-                <input type="texto" class="form-control" id="formularioContactoAsunto" required minlength="1" maxlength="100">
+                <input type="text" class="form-control" id="formularioContactoAsunto" required minlength="1" maxlength="100">
               </div>
               <div class="mb-3">
                 <label for="formularioContactoMensaje" class="form-label">Mensaje</label>
                 <textarea id="formularioContactoMensaje" rows="3" class="form-control" required minlength="1"
                   maxlength="500"></textarea>
               </div>
-      
-              <button type="submit" class="btn btn-dark">Enviar</button>
-            </form>
+              <button id="enviarCorreo" type="submit">Enviar</button>
+            </form> 
+            </div>
           </section>
         </main>
-        <footer class=" bg-dark py-5">
+        <footer class="py-5">
           <div class="container">
-            <div class="row justify-content-between align-items-baseline">
+            <div class="row justify-content-between align-items-center">
               <div class="col-12 col-sm-auto">
                 <h1>
-                  VIAJES CHILE
+                  © 2022 fjbons github-portfolio
                 </h1>
               </div>
-              <div class="col-12 col-sm-auto">
-                <i class="fa-brands fa-2x me-1 fa-github"></i>
-                <i class="fa-brands fa-2x me-1 fa-linkedin"></i>
-                <i class="fa-brands fa-2x me-1 fa-facebook"></i>
-                <i class="fa-brands fa-2x me-1 fa-twitter"></i>
+              <div class="section-iconos col-12 col-sm-auto">
+                <a class="btn" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://github.com/fjbons" target="_blank"><i class="fa-brands fa-2x me-1 fa-github"></i></a>
+                <a class="btn" data-toggle="tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/francisca-javiera-bon-silva-491871119" target="_blank"><i class="fa-brands fa-2x me-1 fa-linkedin"></i></a>
+                <a class="btn" data-toggle="tooltip" data-placement="top" title="Facebook" href="https://facebook.com/" target="_blank"><i class="fa-brands fa-2x me-1 fa-facebook"></i></a>
+                <a class="btn" data-toggle="tooltip" data-placement="top" title="Twitter" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-2x me-1 fa-twitter"></i></a>
               </div>
             </div>
           </div>
         </footer>
-    </main>
-    <footer></footer>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

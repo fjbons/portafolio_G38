@@ -1,10 +1,20 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     scroll-behavior: smooth;
     background-color: black;
     color: white;
+  }
+
+  .nav-black {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+  }
+
+  .navbar-brand {
+    font-size: 15px;
   }
 
   .section-carousel img {
@@ -42,6 +52,15 @@ body, html {
     .card-proyectos {
       padding-bottom: 50px;
     }
+
+/* fix centered footer items */
+    footer h1 {
+      padding-left: 100px;
+    }
+
+    .section-iconos {
+      padding-left: 120px;
+    }
     }
 
 /* fix carousel caption position on smaller screens */
@@ -52,10 +71,18 @@ body, html {
     .section-formacion h3 {
       padding-bottom: 100px;
     }
+
+/* fix centered footer items */
+    footer h1 {
+      padding-left: 0px;
+    }
+
+    .section-iconos {
+      padding-left: 0px;
+    }
     }
   
-  
-  .texto-perfil button {
+  .texto-perfil .btn {
     border: none;
     outline: 0;
     display: inline-block;
@@ -66,7 +93,7 @@ body, html {
     cursor: pointer;
   }
   
-  .texto-perfil button:hover {
+  .texto-perfil .btn:hover {
     background-color: white;
     color: black;
   }
@@ -91,4 +118,52 @@ body, html {
 
   .section-contacto {
     height: auto;
+  }
+
+  .section-contacto img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .section-contacto button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 50px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .section-contacto button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .contacto-logo {
+    align-items: center;
+  }
+
+  footer {
+    color: black;
+    background-color: white;
+    font-size: 15px;
+  }
+
+  footer h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  footer i {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 12px 5px;
+    cursor: pointer;
+  }
+
+  .section-iconos {
+    text-align: center;
   }
