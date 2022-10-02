@@ -3,7 +3,6 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
-
 //added black navbar function when scrolling
 $(document).scroll(function () {
     const y = $("html").scrollTop();
@@ -14,5 +13,3 @@ $(document).scroll(function () {
 $("#enviarCorreo").click(function () {
     alert("Tu mensaje fue enviado correctamente");
   });
-
-  
